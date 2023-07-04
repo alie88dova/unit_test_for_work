@@ -14,7 +14,6 @@ class MockClientSession:
     def __init__(self, connector=None):
         self.connector = connector
 
-
     async def __aenter__(self):
         return self
 
